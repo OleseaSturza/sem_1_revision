@@ -1,0 +1,184 @@
+/*font-family: 'Expletus Sans', cursive;
+font-family: 'Rubik', sans-serif;*/
+/* ----------------------------------------------------------------------------
+Changement du calcul de la hauteur et la largeur totale d'un élément
+---------------------------------------------------------------------------- */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+
+/* ----------------------------------------------------------------------------
+Éléments (nommer les éléments (balises), pas de classe ici )
+---------------------------------------------------------------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    line-height: 1.5;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+/*----------------------------------------------------------------------------
+Objets (Structure. On précise avec des classes)
+----------------------------------------------------------------------------*/
+.wrapper {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------------------------------------------------------------------
+Composants
+Ici, il devrait avoir la majorité des CSS.
+Nous devons être un peu plus précis ici avec les classes.
+----------------------------------------------------------------------------*/
+
+
+/*________________________________________NAV________________________________________*/
+
+
+.header{
+    background-color:#FF9800 ;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin: 0;
+}
+
+.header__nav a{
+   padding: 20px;
+
+}
+.header__nav a:hover{
+    color: white;
+}
+
+/*________________________________________HERO________________________________________*/
+
+.hero{
+    background-color: #FFC107;
+    margin-bottom: 30px;
+
+}
+h1{
+    text-align: center;
+    font: 600 6rem/1.5 'Expletus Sans', serif;
+    padding-top: 88px;
+    padding-bottom: 87px;
+    margin: 0;
+}
+
+/*____________________________________INFORMATION____________________________________________*/
+
+.titre_1{
+    background-color: #E34E26;
+
+}
+.titre_2{
+    background-color: #0270BB;
+
+}
+.titre_3{
+    background-color: #F8DC3D;
+
+
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    height: 100%;
+
+}
+
+
+.information div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.card:hover{
+    border: 1px solid #000000;
+}
+
+h2{
+    font: 600 4rem/1.5 'Expletus Sans', serif;
+    text-align: center;
+    color: white;
+margin: 0;
+
+    background-color: #E34E26;
+}
+p{
+    font: 400 1.125rem/1.5 'Rubik', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+.button{
+    background-color: #F8DC3D;
+    border: 1px solid #E64A19;
+    padding: 10px;
+    border-radius: 5px;
+    font: 400 0.875rem/1.5 'Rubik', sans-serif;
+
+
+
+}
+.button:hover{
+    background-color:#E64A19 ;
+}
+
+.card__content__footer  {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+    align-items: center;
+
+
+}
+span{
+    color: #E64A19;
+
+}
+
+     /*_______________________________________________FOOTER_________________________________*/
+
+
+.footer{
+    background-color: #E64A19;
+    margin-top: 30px;
+
+}
+
+h3{
+    padding: 22px 0 22px 0;
+    color: white;
+    font: 400 0.875rem/1.5 'Rubik', sans-serif;
+    margin: 0;
+}
+/*----------------------------------------------------------------------------------------*/
+
+
+
+
